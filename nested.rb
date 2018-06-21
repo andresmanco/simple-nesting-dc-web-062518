@@ -105,8 +105,9 @@ def changing_alan
           :languages => ["C"]
         }
      }
-     the alans_new_info variable. 
+   
      alans_new_info = "GUI"
+     programmer_hash.each do |prog|
      programmer_hash[:dennis_ritchie][:known_for] = alans_new_info
      
      
