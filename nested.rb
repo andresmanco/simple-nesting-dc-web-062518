@@ -109,10 +109,9 @@ def changing_alan
      alans_new_info = "GUI"
      programmer_hash[:alan_kay].each do |prog|
      prog[:known_for] = alans_new_info
+    end
+    programmer_hash
    end
-     
-     
-end
 
 def adding_to_dennis
 	programmer_hash = 
